@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Alex Sharma",
+      "email": "alex@student.edu",
+      "currency": "\u20b9"
+    },
+    {
+      "id": 2,
+      "username": "",
+      "email": "",
+      "currency": "\u20b9"
+    },
+    {
+      "id": 3,
+      "username": "User",
+      "email": "user3@example.com",
+      "currency": "\u20b9"
+    },
+    {
+      "id": 4,
+      "username": "Priya",
+      "email": "priya@test.com",
+      "currency": "\u20b9"
+    }
+  ],
+  "incomes": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "amount": 55000,
+      "category": "Salary",
+      "source": "Tech Corp India",
+      "date": "2026-10-01",
+      "description": "Monthly primary engineering salary"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "amount": 12000,
+      "category": "Freelance",
+      "source": "UI Consulting Client",
+      "date": "2026-10-15",
+      "description": "Web redesign milestone payment"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "amount": 18000,
+      "category": "Rent",
+      "date": "2026-10-02",
+      "description": "Apartment monthly rent"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "amount": 6500,
+      "category": "Food",
+      "date": "2026-10-08",
+      "description": "Supermarket groceries & kitchen staples"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "amount": 3200,
+      "category": "Utilities",
+      "date": "2026-10-10",
+      "description": "High-speed broadband & electricity"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "amount": 2400,
+      "category": "Transport",
+      "date": "2026-10-12",
+      "description": "Metro card recharge and cab fares"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "amount": 2800,
+      "category": "Entertainment",
+      "date": "2026-10-18",
+      "description": "Weekend dining and streaming services"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "amount": 1500,
+      "category": "Healthcare",
+      "date": "2026-10-22",
+      "description": "Pharmacy supplies and vitamins"
+    }
+  ],
+  "budgets": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "category": "Overall",
+      "amount": 40000,
+      "month": 10,
+      "year": 2026
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "category": "Food",
+      "amount": 8000,
+      "month": 10,
+      "year": 2026
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "category": "Rent",
+      "amount": 18000,
+      "month": 10,
+      "year": 2026
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "category": "Entertainment",
+      "amount": 3500,
+      "month": 10,
+      "year": 2026
+    }
+  ],
+  "savings": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "goal_name": "Emergency Buffer Fund",
+      "target_amount": 150000,
+      "current_amount": 85000,
+      "deadline": "2027-03-31",
+      "category": "Safety"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "goal_name": "MacBook Pro Setup",
+      "target_amount": 120000,
+      "current_amount": 72000,
+      "deadline": "2026-12-31",
+      "category": "Gadgets"
+    }
+  ],
+  "chat_history": [
+    {
+      "id": 1,
+      "sender": "assistant",
+      "message": "Hello! I am your AI Personal Finance Advisor. How can I assist you with your budget, savings goals, or spending analysis today?"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "month": 10,
+      "year": 2026,
+      "income": 67000,
+      "expenses": 34400,
+      "savings": 32600,
+      "highest_category": "Rent",
+      "highest_category_amount": 18000,
+      "ai_summary": "Healthy financial profile maintained. Savings rate is 48.7%, exceeding the recommended 20% benchmark. Fixed overheads are well-contained."
+    }
+  ]
+}
